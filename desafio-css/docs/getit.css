@@ -28,10 +28,12 @@ body {
 }
 
 h3 {
+  align-items: left;
   font-family: "Permanent Marker", cursive;
   font-size: 1.2em;
   color: #2c2c2c;
-  margin-left: 10px;
+  align-self: flex-start;
+  margin-bottom: 6%;
 }
 
 .appbar {
@@ -44,7 +46,6 @@ h3 {
 
 .subtitle {
   margin-left: 15px;
-
 }
 
 .logo {
@@ -69,20 +70,23 @@ form {
   align-self: flex-start;
   margin-top: 0.5%;
   border-style: none;
+  font-family: "Roboto", cursive;
   font-size: 1.2em;
   color: #000000;
 }
 
 .autoresize {
+  font-family: "Roboto", cursive;;
   align-self: flex-start;
   margin-top: 15px;
   height: 20px;
   resize: none;
   border-style: none;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .btn {
+  font-family: "Roboto", cursive;
   background-color: #f7d736;
   padding: 8px 30px;
   border: none;
@@ -107,42 +111,77 @@ form {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #ead3a7;
   width: 200px;
-  height: 100px;
+  height: 110px;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  box-shadow: -1px 8px 10px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
+
+
 .card-color-1{
-  background-color: rgb(126, 216, 246);
+  background-color: #ead3a7;
 }
 .card-color-2{
-  background-color: rgb(205, 87, 160);
+  background-color: #9de0f5;
 }
 .card-color-3{
-  background-color: #80c8a3;
+  background-color: #ef89ba;
 }
 .card-color-4{
-  background-color: #efd56c;
+  background-color: #fae890;
 }
 .card-color-5{
-  background-color:#d1b580;
+  background-color: #abe9c1;
+}
+.card-rotation-1{
+  transform: rotate(3deg);
+}
+.card-rotation-2{
+  transform: rotate(-3deg);
+}
+.card-rotation-3{
+  transform: rotate(3deg);
+}
+.card-rotation-4{
+  transform: rotate(-3deg);
+}
+.card-rotation-5{
+  transform: rotate(3deg);
+}
+.card-rotation-6{
+  transform: rotate(-3deg);
+}
+.card-rotation-7{
+  transform: rotate(3deg);
+}
+.card-rotation-8{
+  transform: rotate(-3deg);
+}
+.card-rotation-9{
+  transform: rotate(3deg);
+}
+.card-rotation-10{
+  transform: rotate(-3deg);
+}
+.card-rotation-11{
+  transform: rotate(3deg);
 }
 
 .card-title {
-  align-items: flex-start;
   font-size: 1.2em;
   color: #2c2c2c;
-  margin: 20px;
 }
 
 .card-content{
   font-family: "Permanent Marker", cursive;
-  font-size: .7em;
-  color: #2c2c2c;
+  font-size: 15px;
+  color: #4c4c4c;
+  align-self: center;
+  margin-right: 10%;
+  margin-bottom: 10%;
 }
 
 
