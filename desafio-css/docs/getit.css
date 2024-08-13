@@ -116,6 +116,21 @@ form {
   border-radius: 5px;
   box-shadow: -1px 8px 10px 5px rgba(0, 0, 0, 0.2);
 }
+.card-color-1{
+  background-color: rgb(126, 216, 246);
+}
+.card-color-2{
+  background-color: rgb(205, 87, 160);
+}
+.card-color-3{
+  background-color: #80c8a3;
+}
+.card-color-4{
+  background-color: #efd56c;
+}
+.card-color-5{
+  background-color:#d1b580;
+}
 
 .card-title {
   align-items: flex-start;
