@@ -109,23 +109,24 @@ form {
   flex-direction: column;
   align-items: center;
   background-color: #ead3a7;
-  width: 180px;
+  width: 200px;
   height: 100px;
   padding: 10px;
   margin: 10px;
-  margin-left: 10px;
   border-radius: 5px;
   box-shadow: -1px 8px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
-  font-size: 1.5em;
+  align-items: flex-start;
+  font-size: 1.2em;
   color: #2c2c2c;
   margin: 20px;
 }
 
 .card-content{
-  font-size: 1em;
+  font-family: "Permanent Marker", cursive;
+  font-size: .7em;
   color: #2c2c2c;
 }
 
